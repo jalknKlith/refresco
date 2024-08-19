@@ -1,0 +1,213 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    width 300px;
+    height: 100px;
+    background-color: aqua;
+    justify-content: space-evenly;
+}
+
+.logo{
+    display: flex;
+    margin: 8px;
+    margin-left: 10px;
+}
+
+.botones{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 250px;
+    justify-content: space-evenly;
+}
+
+.item{
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+}
+
+.item2{
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.item3{
+    background-color:rgb(168, 88, 225);
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 15px; 
+}
+
+.item4{
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.left{
+    background-color:aqua;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    width: 200px;
+    height: 450px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.litem{
+    background-color:rgb(219, 175, 221);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 15px;
+    height: 30px;
+    padding: 25px;
+    border-radius: 15px; 
+    height: 80px;
+}
+
+.tarjetas{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.lorem{
+    font-size: 8px;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 700px;
+    height: 465px;
+    background-color: aqua;
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    border-radius: 30px;
+}
+
+.quote{
+    width: 550px;
+    height: 190px;
+    background-color: rgb(255, 221, 0);
+    margin-top: 25px;
+    margin-left: 120px;
+    border-radius: 50px;
+    display: flex;
+    justify-content:right;
+    border-style: solid;
+    border-color: black;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width 300px;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 15px;
+}
+
+.fbotones{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.fitem{
+    background-color:tomato;
+    font-size: 12px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    width: 90px;
+    height: 80px;
+    padding-left: 80px;
+    padding-right: 30px;
+    border-radius: 35px; 
+    text-align:left;
+}
+
+.social{
+    margin-left: -58px;
+    margin-top: -45px;
+}
+
+.right {
+    background-color: plum;
+    width: 50px;
+    height: 200px;
+    position: absolute;
+    right: 10px;
+    padding-left: 10px;
+    top: 200px;
+    transform: right;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+}
+
+.add {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 10px;
+    padding-left: 10px;
+    top: 550px;
+    transform: right;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    border-radius: 20px;
+  }
+
+.tree{
+    margin-left: -50px;
+    margin-top:-100px;
+}
+
+.sun{
+    margin-left: -25px;
+    margin-top: -20px;
+}
+
+.user{
+    margin-left: -70px;
+    margin-top: 30px;
+    background-color: black;
+    width: 130px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.citem{
+    font-size: 24px;
+    color: black;
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 30px;
+    text-align:center;
+}
+
+.boat{
+    margin-right: 10px;
+    margin-top: 30px;
+    background-color: rgb(255, 149, 0);
+    width: 130px;
+    height: 120px;
+    border-radius: 60px;
+}
